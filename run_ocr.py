@@ -17,7 +17,6 @@ API_KEY = os.getenv("NGC_API_CLOUD_KEY")
 IMAGE_DIR = "images"
 OUTPUT_DIR = "output"
 
-
 # Ensure output directory exists
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -26,7 +25,6 @@ if not API_KEY:
     sys.exit(1)
 
 # --- 2. CORE FUNCTIONS ---
-
 def encode_image(image_path):
     with open(image_path, "rb") as f:
         return base64.b64encode(f.read()).decode("utf-8")
@@ -167,7 +165,6 @@ def process_batch(file_pairs):
                 print("⚠️ OCR returned no text.")
         else:
             print(f"❌ OCR Request failed: {res.status_code}")
-
 
 if __name__ == "__main__":
     file_pairs = [
