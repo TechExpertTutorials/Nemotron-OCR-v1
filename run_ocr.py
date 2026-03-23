@@ -1,3 +1,9 @@
+"""
+conda create env -n nemotron-ocr python=3.12 requests
+conda activate nemotron-ocr
+"""
+
+
 import os
 import sys
 import base64
