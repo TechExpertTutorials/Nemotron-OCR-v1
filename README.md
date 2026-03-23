@@ -56,6 +56,6 @@ ________________________________________
 •	Connection Errors: Using requests.Session() is required to maintain a stable TCP handshake with the NVIDIA NIM endpoints.  
 ________________________________________  
 📺 Watch the Tutorial  
-This code is part of the @techexpert series on advanced AI automation.  
+This code is part of the @techexperttutorial series on OCR Top Tier List Ranking 2026.  
 [Click here to watch the full walkthrough on YouTube]  
   
